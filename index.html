@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/icons/favicon-16x16.png">
+    <link rel="manifest" href="/resources/icons/site.webmanifest">
+    <link rel="mask-icon" href="/resources/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/resources/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/resources/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Omnifood</title>
+</head>
+
+<body>
+
+    <!--------------- HEADER ------------------------------------------------->
+
+    <header>
+        <nav>
+            <div class="row">
+                <img src="resources/img/logo-white.png" alt="Omnifood logo" class="logo">
+                <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black">
+                <ul class="main-nav js--main-nav">
+                    <li class="js--scroll-to-start"><a href="#">Essens-Lieferung</a></li>
+                    <li class="js--scroll-to-steps"><a href="#">Wie es funktioniert</a></li>
+                    <li class="js--scroll-to-cities"><a href="#">Unsere Lokale</a></li>
+                    <li class="js--scroll-to-signup"><a href="#">Preise</a></li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </a>
+            </div>
+
+        </nav>
+        <div class="hero-text-box">
+            <h1>Natürliche Gerichte.<br>Wo und wann immer Sie es wünschen.</h1>
+            <a class="btn btn-full js--scroll-to-plans" href="#">Jetzt bestellen</a>
+            <a class="btn btn-ghost js--scroll-to-start" href="#">Mehr erfahren</a>
+        </div>
+    </header>
+
+    <!--------------- FEATURES SECTION ------------------------------------------------->
+
+    <section class="section-features js--section-features">
+        <div class="row">
+
+            <h2>Essen schnell bestellen &mdash; ohne Qualitätseinbußen.</h2>
+            <p class="long-copy">
+                Wir sind Omnifood, ein Premium-Lieferdienst für heimische Gerichte. Mit uns sparen sie Zeit,
+                die Sie normalerweise fürs Kochen brauchen. Die Lieferung übernehmen wir!
+            </p>
+        </div>
+
+        <div class="row js--wp-1">
+            <div class="col span-1-of-4 box">
+                <ion-icon name="infinite-outline" class="icons-big"></ion-icon>
+                <h3>365 Tage - das ganze Jahr über</h3>
+                <p>Unsere Abo-Services garantieren Ihnen die Lieferung von heimischen Gerichten, jeden Tag.
+                    Wir haben diverse Abo-Pläne für maximale Flexibilität.
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <ion-icon name="stopwatch-outline" class="icons-big"></ion-icon>
+                <h3>In 20 Minuten bereit</h3>
+                <p>Die meisten Lieferungen benötigen nur 20 Minuten! Unsere Lieferinfrastruktur garantiert schnellste
+                    Lieferzeiten.
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <ion-icon name="leaf-outline" class="icons-big"></ion-icon>
+                <h3>100% heimische Bio-Gerichte</h3>
+                <p>Alle unsere Gerichte werden aus hochwertigen Bio-Zutaten hergestellt, egal ob Salate oder Fleisch.
+                    Gut für Ihre Gesundheit und die Umwelt!
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <ion-icon name="cart-outline" class="icons-big"></ion-icon>
+                <h3>Bestellen Sie, was Sie wollen</h3>
+                <p>Egal ob Knödel oder Pizza, wir haben eine große Speisekarte für jeden Geschmack!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--------------- MEALS SECTION ------------------------------------------------->
+
+    <section class="section-meals">
+        <ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/1.jpg" alt="Korean bibimbap with egg and vegetables">
+                    <figcaption>Koreanisches Bibimbap</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/2.jpg" alt="Simple italian pizza with cherry tomatoes">
+                    <figcaption>Pizza Tricolore</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/3.jpg" alt="Chicken breast steak with vegetables">
+                    <figcaption>Hühnerbrust</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/4.jpg" alt="Autumn pumpkin soup">
+                    <figcaption>Kürbissuppe</figcaption>
+                </figure>
+            </li>
+        </ul>
+        <ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/5.jpg" alt="Paleo beef steak with vegetables">
+                    <figcaption>Beef Steak</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/6.jpg" alt="Healthy baguette with egg and vegetables">
+                    <figcaption>Baguette mit Ei</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/7.jpg" alt="Burger with cheddar and bacon">
+                    <figcaption>Burger mit Speck</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/8.jpg" alt="Granola with cherries and strawberries">
+                    <figcaption>Granola mit Obst</figcaption>
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+    <!--------------- STEPS SECTION ------------------------------------------------->
+
+    <section class="section-steps js--section-steps">
+        <div class="row">
+            <h2>Wie es funktioniert &mdash; in 3 kurzen Schritten</h2>
+        </div>
+        <div class="row js--wp-2">
+            <div class="col span-1-of-2">
+                <img src="resources/img/app-iPhone.png" alt="Omnifood app on iphone" class="app-screen">
+            </div>
+            <div class="col span-1-of-2">
+                <div class="works-step">
+                    <div>1</div>
+                    <p>Wählen Sie einen Abonnement-Plan aus.</p>
+                </div>
+                <div class="works-step">
+                    <div>2</div>
+                    <p>Bestellen Sie über unsere App, Website oder per Anruf.</p>
+                </div>
+                <div class="works-step">
+                    <div>3</div>
+                    <p>In zirka 20 - 40 Minuten sind wir bei Ihnen!</p>
+                </div>
+
+                <a href="#" class="btn-app">
+                    <img src="resources/img/download-app.svg" alt="App Store Button">
+                    <img src="resources/img/download-app-android.png" alt="Play Store Button">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--------------- CITIES SECTION ------------------------------------------------->
+
+    <section class="section-cities js--section-cities">
+        <div class="row">
+            <h2>Wir sind zurzeit in diesen Städten</h2>
+        </div>
+        <div class="row js--wp-3">
+            <div class="col span-1-of-4 box">
+                <figure class="cities-photo">
+                    <img src="resources/img/meran.jpg" alt="Meran">
+                </figure>
+                <h3>Meran</h3>
+                <div class="city-feature">
+                    <ion-icon name="person-circle-outline" class="icons-small"></ion-icon>
+                    1600+ Kunden
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="star-outline" class="icons-small"></ion-icon>
+                    6 Köche
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="logo-twitter" class="icons-small"></ion-icon>
+                    <a href="#">@omnifood_meran</a>
+                </div>
+            </div>
+            <div class="col span-1-of-4 box">
+                <figure class="cities-photo">
+                    <img src="resources/img/lana.jpg" alt="Lana">
+                </figure>
+                <h3>Lana</h3>
+                <div class="city-feature">
+                    <ion-icon name="person-circle-outline" class="icons-small"></ion-icon>
+                    370+ Kunden
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="star-outline" class="icons-small"></ion-icon>
+                    3 Köche
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="logo-twitter" class="icons-small"></ion-icon>
+                    <a href="#">@omnifood_lana</a>
+                </div>
+            </div>
+            <div class="col span-1-of-4 box">
+                <figure class="cities-photo">
+                    <img src="resources/img/schlanders.jpg" alt="Schlanders">
+                </figure>
+                <h3>Schlanders</h3>
+                <div class="city-feature">
+                    <ion-icon name="person-circle-outline" class="icons-small"></ion-icon>
+                    300+ Kunden
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="star-outline" class="icons-small"></ion-icon>
+                    7 Köche
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="logo-twitter" class="icons-small"></ion-icon>
+                    <a href="#">@omnifood_schlanders</a>
+                </div>
+            </div>
+            <div class="col span-1-of-4 box">
+                <figure class="cities-photo">
+                    <img src="resources/img/bozen.jpg" alt="Bozen">
+                </figure>
+                <h3>Bozen</h3>
+                <div class="city-feature">
+                    <ion-icon name="person-circle-outline" class="icons-small"></ion-icon>
+                    1200+ Kunden
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="star-outline" class="icons-small"></ion-icon>
+                    11 Köche
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="logo-twitter" class="icons-small"></ion-icon>
+                    <a href="#">@omnifood_bozen</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------- TESTIMONIALS SECTION ------------------------------------------------->
+
+    <section class="section-testimonials">
+        <div class="row">
+            <h2>Kundenzufriedenheit wird bei uns groß geschrieben!</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <blockquote>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+                    duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                    sit amet.</blockquote>
+                <cite><img src="resources/img/customer-1.jpg" alt="cust1">Alberto Mustero</cite>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+                    duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                    sit amet.</blockquote>
+                <cite><img src="resources/img/customer-2.jpg" alt="cust2">Johanna Mair</cite>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+                    duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                    sit amet.
+                </blockquote>
+                <cite><img src="resources/img/customer-3.jpg" alt="cust3">Friedrich Müller</cite>
+            </div>
+        </div>
+    </section>
+
+    <!--------------- PLANS SECTION ------------------------------------------------->
+
+    <section class="section-plans js--section-plans">
+        <div class="row">
+            <h2>Abonnieren Sie noch heute</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="plan-box js--wp-4">
+                    <div>
+                        <h3>Premium</h3>
+                        <p class="plan-price">€399 <span>/ Monat</span></p>
+                        <p class="plan-price-meal">Es kostet Sie €13.30 pro Mahlzeit</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <ion-icon name="checkmark-outline" class="icons-small"></ion-icon>1 Mahlzeit pro Tag
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark-outline" class="icons-small"></ion-icon>Sie können 24/7 bestellen
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark-outline" class="icons-small"></ion-icon>Flexible Speisekarte
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark-outline" class="icons-small"></ion-icon>Gratis Lieferung
+                        </li>
+                    </ul>
+                    <div>
+                        <a href="#" class="btn btn-full">Jetzt abonnieren</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>Pro</h3>
+                        <p class="plan-price">€149 <span>/ Monat</span></p>
+                        <p class="plan-price-meal">Es kostet Sie €14.90 pro Mahlzeit</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <ion-icon name="checkmark-outline" class="icons-small"></ion-icon>10 Mahlzeiten pro Monat
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark-outline" class="icons-small"></ion-icon>Sie können 24/7 bestellen
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark-outline" class="icons-small"></ion-icon>Flexible Speisekarte
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark-outline" class="icons-small"></ion-icon>Gratis Lieferung
+                        </li>
+                    </ul>
+                    <div>
+                        <a href="#" class="btn btn-ghost">Jetzt abonnieren</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>Starter</h3>
+                        <p class="plan-price">$19 <span>/ Mahlzeit</span></p>
+                        <p class="plan-price-meal">&nbsp;</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <ion-icon name="checkmark-outline" class="icons-small"></ion-icon>1 Mahlzeit
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark-outline" class="icons-small"></ion-icon>Bestellen von 8:00 bis
+                            22:00
+                        </li>
+                        <li>
+                            <ion-icon name="close-outline" class="icons-small"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark-outline" class="icons-small"></ion-icon>Gratis Lieferung
+                        </li>
+                    </ul>
+                    <div>
+                        <a href="#" class="btn btn-ghost">Jetzt bestellen</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------- CONTACT FORM SECTION ------------------------------------------------->
+
+    <section class="section-form">
+        <div class="row">
+            <h2>Wir freuen uns von Ihnen zu hören</h2>
+        </div>
+        <div class="row">
+            <form method="post" actions="#" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Ihr Name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Ihre Email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="find-us">Wie sind Sie auf uns gekommen?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="find-us" id="find-us">
+                            <option value="friends" selected>Freunde</option>
+                            <option value="search">Internet</option>
+                            <option value="ad">Werbung</option>
+                            <option value="other">Anderes</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Newsletter</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="checkbox" name="news" id="news" checked> Ja, bitte
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Schreiben Sie uns etwas</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" placeholder="Ihre Nachricht"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Senden!">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--------------- FOOTER ------------------------------------------------->
+
+    <footer>
+
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">Über uns</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Impressum</a></li>
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#">
+                            <ion-icon name="logo-facebook" class="facebook"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-twitter" class="twitter"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-youtube" class="youtube"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-instagram" class="instagram"></ion-icon>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>Copyright &copy; 2019 Omnifood. All rights reserved. Dies ist eine Demo.</p>
+        </div>
+    </footer>
+
+
+
+    <!-- -->
+
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="resources/js/scripts.js"></script>
+</body>
+
+</html>
