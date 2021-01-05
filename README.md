@@ -1,3 +1,3 @@
 # Restaurant-Abo-Website
 
-Simple Restaurant Landing Page using HTML & CSS
+Restaurant Subscription Service Landing Page using HTML & CSS
