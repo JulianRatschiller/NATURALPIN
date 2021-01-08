@@ -77,7 +77,7 @@ h3 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #2980b9;
+    background-color: #2ecc71;
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -100,14 +100,14 @@ h2:after {
 .icons-big {
     font-size: 350%;
     display: block;
-    color: #2980b9;
+    color: #2ecc71;
     margin-bottom: 10px;
 }
 .icons-small {
     display: inline-block;
     width: 30px;
     text-align: center;
-    color: #2980b9;
+    color: #2ecc71;
     font-size: 120%;
     margin-right: 10px;
     /* align text and icons*/
@@ -119,10 +119,10 @@ h2:after {
 /*----- GENERIC LINKS -----*/
 a:link,
 a:visited {
-    color: #2980b9;
+    color: #2ecc71;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #2980b9;
+    border-bottom: 1px solid #2ecc71;
     transition: border-bottom 0.2s, color 0.2s;
 }
 a:hover,
@@ -184,7 +184,7 @@ header {
 }
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #2980b9;
+    border-bottom: 2px solid #2ecc71;
 }
 
 /*Mobile Nav*/
@@ -261,7 +261,7 @@ figcaption{
     background-color: none;
     text-align: center;
     margin-top: 1%;
-    color: #2980b9;
+    color: #2ecc71;
     font-weight: 1000;
     font-size: 100%;
     opacity: 1;
@@ -296,8 +296,8 @@ figcaption{
     margin-bottom: 80px;
 }
 .works-step div {
-    color: #2980b9;
-    border: 2px solid #2980b9;
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
     display: inline-block;
     border-radius: 50%;
     height: 50px;
@@ -400,7 +400,7 @@ cite img {
     font-size: 300%;
     margin-bottom: 10px;
     font-weight: 100;
-    color: #236d9d;
+    color: #1b7943;
 }
 .plan-price-meal {
     font-size: 80%;
@@ -524,30 +524,30 @@ input[type=submit] {
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
-    background-color: #2980b9;
-    border: 1px solid #2980b9;
+    background-color: #2ecc71;
+    border: 1px solid #2ecc71;
     color: #fff;
     margin-right: 15px;
 }
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #2980b9;
-    color: #2980b9;
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
 }
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #236d9d;
+    background-color: #1b7943;
 }
 .btn-full:hover,
 .btn-full:active,
 input[type=submit] {
-    border: 1px solid #2980b9;
+    border: 1px solid #2ecc71;
 }
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #2980b9;
+    border: 1px solid #2ecc71;
     color: #fff;
 }
 
