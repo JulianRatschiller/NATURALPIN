@@ -2,7 +2,7 @@
 
 Lieferservice Webseite mit HTML & CSS
 
-# JavaScript · HTML · CSS/SASS · Animate.css · jQuery · Netlify
+JavaScript · HTML · CSS/SASS · Animate.css · jQuery · Netlify
 
 Haupsächlich mit HTML & CSS entwickelte, rein visuelle Single-Page Startseite eines
 Lieferdienst-Restaurants mit Animationen, die mit jQuery integriert wurden.
